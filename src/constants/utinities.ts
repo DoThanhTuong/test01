@@ -12,7 +12,7 @@ import Renew from "@assets/files.png";
 export const APP_UTINITIES: Array<Utinity> = [
     {
         key: "create-schedule-appointment",
-        label: "Đặt lịch làm việc",
+        label: "Đặt lịch làm việc trước",
         icon: Icon.CalendarIcon,
         path: "/create-schedule-appointment",
     },

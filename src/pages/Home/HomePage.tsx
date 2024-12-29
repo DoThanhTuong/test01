@@ -16,10 +16,7 @@ const HomePage: React.FunctionComponent = () => {
         <PageLayout
             id="home-page"
             customHeader={
-                <HomeHeader
-                    title="DỊCH VỤ CÔNG"
-                    name={organization?.name || ""}
-                />
+                <HomeHeader title="BCN" name={organization?.name || ""} />
             }
         >
             <Utinities utinities={APP_UTINITIES} />

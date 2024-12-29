@@ -9,7 +9,7 @@ interface UtinitiesProps {
 }
 
 const UtinitiesWrapper = styled.div`
-    ${tw`flex flex-row flex-wrap justify-between bg-ui_bg bg-center bg-no-repeat`};
+    ${tw`flex flex-row justify-between bg-ui_bg bg-center bg-no-repeat`};
     background-image: url(${Background});
     padding: 16px;
     padding-top: 24px;
